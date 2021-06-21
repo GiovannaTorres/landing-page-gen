@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>Primeira landing page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
   </head>
 
 
@@ -31,15 +32,15 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">GALERIA</a>
+                <a class="nav-link" href="#">GALERIA DE JOGOS</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">VÍDEO</a>
+                <a class="nav-link" href="#">CADASTRE-SE</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">GAMES</a>
+                <a class="nav-link" href="#">GAMEPLAY</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -89,6 +90,7 @@
               <p>Super Nintendo Entertainment System</p>
             </div>
           </div>
+        
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -103,8 +105,8 @@
 
 
 
-      <!-- Parágrafo jogos e png -->
-    <section class="container">
+      <!-- Parágrafo introdução para os cards na mesma section -->
+    <section id="galeria" class="container">
 
         <div class="row mt-5 d-flex justify-content-center">
 
@@ -112,38 +114,130 @@
         <div class="row mt-5 d-flex justify-content-center">
   
           <div class="col-md-6 p-10">
-                  <h2>GAMES RETRO</h2>
+            <img src="https://fontmeme.com/permalink/210621/0c25c4b6695327baed0a672207365571.png" alt="Galeria Games Retro"></a>
                   <p>Nintendo NES, Game Boy, Game Boy Advance, Sega Master System, Sega Game Gear, Sega Genesis, NEC PC Engine, Classic Arcade, Sony Playstation, Atari LYNX e Atari7800</p>
           </div>
 
           <div class="col-md-1 p-10"></div>
   
           <div class="col-md-4 p-10">
-              <img src="https://image.flaticon.com/icons/png/512/1677/1677715.png" width="250px"></a>
+              <img src="https://image.flaticon.com/icons/png/512/1677/1677715.png" width="200px"></a>
           </div>
   
        </div>
-       </section>
 
 
        <!-- Cards-->
-    <section class="container">
 
+        <div class="card mb-3" style="max-width: 950px;  background-color: rgb(1, 0, 22); border: 1px solid rgb(255, 172, 255);">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://lh3.googleusercontent.com/proxy/ZM4FfcVRCfFgKxWpeuUTtGuJ9Df5EopeTREq5fi5NpbGyoWr-Hl6ldBus8r43rXKse_GL6bak3iBrDWNLUMzf1pnAooLrWKMhU53iPqjhS7jafHkj6iX" alt="Capa jogo Coryoon">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">CORYOON</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, molestiae voluptate. Libero, deserunt aspernatur atque reiciendis tempora est molestiae cumque?</p>
+                  <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="card mb-3" style="max-width: 950px; background-color: rgb(1, 0, 22); border: 1px solid rgb(255, 172, 255);">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://coolrom.com/screenshots/genesis/Columns.jpg" alt="Capa jogo Columns Sega Genesis">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">COLUMNS SEGA GENESIS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, omnis reprehenderit? Tenetur exercitationem ratione alias natus aperiam voluptate quisquam itaque iure pariatur?</p>
+                  <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 950px;  background-color: rgb(1, 0, 22); border: 1px solid rgb(255, 172, 255);">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://www.speedrun.com/themes/multiple_bomberman_games/cover-256.png" alt="Capa jogo Bomberman">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">BOMBERMAN</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, molestiae voluptate. Libero, deserunt aspernatur atque reiciendis tempora est molestiae cumque?</p>
+                  <p class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.
+                  </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
 
     </section>
 
     <!-- Texto e vídeo -->
-    <section class="row mt-5 mb-5">
-        <div class="col-md-5">
+    <section id="gameplay" class="container row mt-5 mb-5">
+        <div class="col-md-7">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fYjQY6McqSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-md-7">
-            <h3>Gameplay</h3> <img src="https://image.flaticon.com/icons/png/512/1103/1103718.png" width="50px">
+        <div class="col-md-5">
+            <img src="https://fontmeme.com/permalink/210621/ba4b2b88da668801807cfbc594fe9455.png" alt="Gameplay"></a> <img src="https://image.flaticon.com/icons/png/512/1103/1103718.png" width="50px">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam obcaecati quo ea quibusdam tenetur deleniti reprehenderit nemo molestias similique? Inventore maxime dolor quisquam iste cumque libero odio commodi consequuntur. Tempore cum nostrum quasi culpa, facere unde earum aperiam explicabo impedit veniam laboriosam officia velit commodi placeat, rerum, ab quos quaerat?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum velit a temporibus? Necessitatibus vero voluptatibus nobis similique adipisci tempora, dicta quae tempore laborum dolor.</p>
         </div>
     </section>
+
+
+
+    <!-- Formulário -->
+
+    <section id="formulario" class="container" style="max-width: 50rem;">
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://fontmeme.com/permalink/210621/1b42b7d4229007ef49c6b7fcfd9ece83.png" alt="Cadastro"></a>
+                </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email usuário">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nova senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                      <small id="txtSenha" class="form-text text-muted"></small>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Cadastre-se</button>
+                  </form>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <hr>
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://www.instagram.com/" target="_blank" class="p-3" >
+                    <img class="social" src="https://image.flaticon.com/icons/png/512/174/174855.png" width="50px" alt="Logo Instagram">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" class="p-3" >
+                    <img class="social" src="https://image.flaticon.com/icons/png/512/220/220200.png" width="50px" alt="Logo Facebook">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" class="p-3" >
+                    <img class="social" src="https://image.flaticon.com/icons/png/512/1384/1384060.png" width="50px" alt="Logo Youtube">
+                </a>
+            </div>
+        </div>
+    </footer>
 
 
 
