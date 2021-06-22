@@ -1,0 +1,11 @@
+.card {
+    -webkit-box-shadow: -18px -18px 34px -10px rgba(255,181,77,0.67), 18px 18px 34px -10px rgba(255,74,102,0.67); 
+    box-shadow: -18px -18px 34px -10px rgba(255,181,77,0.67), 18px 18px 34px -10px rgba(255,74,102,0.67);
+}
+
+#formulario {
+    -webkit-box-shadow: 18px 18px 34px -25px #FF4A66, -18px -18px 34px -28px #FFAC38; 
+    box-shadow: 18px 18px 34px -25px #FF4A66, -18px -18px 34px -28px #FFAC38;
+}
+
+    
