@@ -2,8 +2,14 @@
   --cinza: #505066;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 body {
-  color: var(--cinza)
+  color: var(--cinza);
+  font-family: 'Oswald', sans-serif;
 }
 
 .card {
