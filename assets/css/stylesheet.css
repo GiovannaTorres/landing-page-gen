@@ -2,6 +2,10 @@
   --cinza: #505066;
 }
 
+html, body { 
+  margin:0; height: 100%;
+}
+
 html{
   scroll-behavior: smooth;
 }
