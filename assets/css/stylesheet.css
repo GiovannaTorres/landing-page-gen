@@ -27,6 +27,11 @@ body {
 
   .transicao-rosa:hover {
     color: #ff6fc3;
-      transition:0.5s;
+      transition:0.4s;
+  }
+
+  .pink-shadow {
+    -webkit-box-shadow: 0px 5px 47px -17px rgba(230,179,255,0.73); 
+    box-shadow: 0px 5px 47px -17px rgba(230,179,255,0.73);
   }
   
